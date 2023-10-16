@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open My Link : Configurations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="configure">
+        <!-- branding -->
+        <div class="container border-none">
+            <div class="row">
+                <div class="col">
+                    <h2>Configure links</h2>
+                </div>
+            </div>
+        </div>
+
+    <!-- Input section -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="form-addLink">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" id="shortcutKey" placeholder="Shortcut key (example: w)" maxlength="1" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="linkName" placeholder="Link name" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="linkUrl" placeholder="Link URL" required>
+                        </div>
+                        <div class="col">
+                            <button class="button-primary" id="btn-addLink">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Display section -->
+    <div class="container">
+        <div id="shortcutList" class="row d-flex justify-content-start align-items-center flex-wrap">
+            <!-- <div class="col mr-1 my-5px border-primary p-1">
+                <p>Name (W)</p>
+                <p>https://www.example.com</p>
+                <button>Delete</button>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

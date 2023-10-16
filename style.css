@@ -1,0 +1,138 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.index{
+    width: 30rem;
+    /* height: 20rem; */
+}
+.configure{
+    width: 80%;
+    margin: auto;
+}
+
+/* Dimension utilities */
+
+/* Margin, Padding utilities */
+.mx-2{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.mr-2{
+    margin-right: 2rem;
+}
+.my-5px{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.mr-1{
+    margin-right: 1rem;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.p-2{
+    padding: 2rem;
+}
+
+.container{
+    max-width: 100%;
+    border: 2px solid black;
+    height: auto;
+    padding: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+/* text utilities */
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+
+
+/* border utilities */
+.border-rounded{
+    border-radius: 5px;
+}
+.border-none{
+    border: none;
+}
+.border-primary{
+    border: 2px solid black;
+}
+
+
+/* Background utilities */
+.bg-teal{
+    background: teal;
+    color: white;
+}
+
+
+
+/* Button utilities */
+.button-primary {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button-primary:hover {
+    background-color: #000000;
+}
+
+.button-secondary{
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-secondary:hover {
+    background-color: #000000;
+    color: white;
+}
+
+
+/* Link utilities */
+.link{
+    text-decoration: none;
+}
+
+/* Input utilities */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
