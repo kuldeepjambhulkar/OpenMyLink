@@ -1,6 +1,6 @@
 ## Open My Link Chrome Extension
 
-Go to : [Open My Link](https://kuldeepjambhulkar.github.io/OpenMyLink/index.html)
+Go to : [Open My Link](https://kuldeepjambhulkar.github.io/OpenMyLink/)
 
 The Open My Link Chrome Extension is a productivity tool designed to allow users to configure and quickly access their favorite websites using custom keyboard shortcuts. It provides a convenient way to open specific websites with just a few keystrokes, enhancing the browsing experience and saving time.
 
